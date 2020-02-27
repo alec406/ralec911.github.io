@@ -1,0 +1,1 @@
+Allows the user to enter a month and a year. The year must be after 1800. The program then checks to make sure it is a valid month and year. It then proceeds to display the calendar for that month and year.
