@@ -1,0 +1,281 @@
+
+*{
+  margin: 0px;
+}
+
+
+.top-container {
+  /*width: 100%;*/
+  margin: 0px;
+  text-align: center;
+  border-style: dashed;
+  border-color: white;
+  border-spacing: 10px;
+  background: repeating-linear-gradient(
+  to right,
+  green,
+  green 5%,
+  #ff0000 5%,
+  #ff0000 10%
+);
+}
+.title {
+  font-family: cursive;
+  text-shadow: 2px 2px 8px white;
+  font-weight: bold;
+  font-size: 72px;
+  background-color: #ff0000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-color: white;
+}
+/*.santa-div{
+  background-color: lightgreen;
+  text-align: center;
+}
+*/
+/*
+.santapic{
+  background-color: lightgreen;
+  width: 300;
+  height: 100;
+
+  -webkit-transform:rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+*/
+.santapicL{
+  background-color: #ff0000;
+  width: 270;
+  height: 90;
+  float:left;
+  margin-left: 200px;
+  margin-top: 40px;
+
+  -webkit-transform:rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+.santapicR{
+  background-color: #ff0000;
+  width: 270;
+  height: 90;
+  float:right;
+  margin-right: 200px;
+  margin-top: 40px;
+
+  -webkit-transform:rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+
+.gamecanvas{
+  /*width: 1000;
+  height: 1000;
+  */
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  border-style: double;
+  border-color: white;
+}
+
+/*
+.container{
+  width:800px;
+  margin:auto;
+  background: repeating-linear-gradient(
+  to right,
+  #ff0000,
+  #ff0000 40px,
+  green 40px,
+  green 80px
+  );
+  border-left: dashed;
+  border-right: dashed;
+  border-color: white;
+  text-align: center;
+  align-items: center;
+}
+*/
+
+.tab-container{
+  height:50px;
+  margin-bottom: 20px;
+}
+
+.tabbut{
+  width:50%;
+  float: left;
+  box-sizing: border-box;
+}
+.tab-button{
+  width: 100%;
+  background-color: #AAA;
+  height: 40px;
+  font-size: 30px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: cursive;
+  color:#222;
+  cursor: pointer;
+  text-align: center;
+}
+.tab-button:hover{
+  background-color: #CCC;
+  color:#222
+}
+
+.tab-active{
+  background-color: #fAA!important;
+  color: #555!important;
+}
+
+.game-container{
+  display: none;
+  width: 100%;
+  background: repeating-linear-gradient(
+    to right,
+    #ff0000,
+    #ff0000 5%,
+    green 5%,
+    green 10%
+    );
+  border-color: white;
+  text-align: center;
+  align-items: center;
+  min-height: 50px;
+  margin: auto;
+  margin-top: 0px;
+
+}
+
+.intro-popin-container{
+  width: 100%;
+  height: auto;
+  position: relative;
+  /*background-color: rgba(0, 0, 0, 0, 7);*/
+  box-sizing: border-box;
+}
+
+.intro-popin{
+  width:36%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 70%;
+  background-color: #fff;
+  background-image: url("../images/christmas-snake.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: double;
+  border-color: white;
+  /*margin-top: 7%;
+  margin-bottom: 5%;
+  */
+}
+
+.play-button-container{
+  width: 100%;
+  height: 45px;
+  padding: 0px;
+  position: relative;
+  margin:auto;
+  margin-top: 80%;
+  /*bottom: 20px;*/
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.play-button {
+  width: 25%;
+  height: 30px;
+  background-color: #222;
+  margin: auto;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'Fugaz One', cursive;
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+
+.main{
+  height: 100%;
+  /*width: 100%;*/
+  background: repeating-linear-gradient(
+  to right,
+  #ff0000,
+  #ff0000 5%,
+  green 5%,
+  green 10%
+);
+border-left: dashed;
+border-right: dashed;
+border-bottom: dashed;
+border-color: white;
+text-align: center;
+align-items: center;
+box-sizing: border-box;
+}
+
+.highscore-container{
+  display: none;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  font-family: cursive;
+  text-shadow: 2px 2px 8px white;
+  font-weight: bold;
+}
+
+.highscore-column{
+  width:25%;
+  height: 70%;
+  margin:auto;
+  background-color: green;
+  border: dashed;
+  border-color: white;
+  text-align: center;
+}
+
+.scorecount{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 46%;
+  margin-right: 46%;
+  padding: 4px;
+  border-top: double;
+  border-left: double;
+  border-right: double;
+  border-color: white;
+  background-color: lightblue;
+}
+.scoredisp{
+  font-size: 30px;
+  display: inline-block;
+  font-family: cursive;
+  text-align: center;
+}
+.currscoredisp{
+  display: inline-block;
+  font-size: 30px;
+  font-family: cursive;
+}
