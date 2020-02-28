@@ -1,0 +1,1 @@
+Allows the user to vote for a name in the class. Each time a student in the class gets a vote their rank increases by one. After every vote the list is sorted from highest rank to lowest rank.
