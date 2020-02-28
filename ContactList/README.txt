@@ -1,0 +1,1 @@
+This program allows the user to enter a contact name and phone number. They can continue adding contacts until they type 'n'. Once they type 'n' the contacts are displayed in alphabetical order. This done by using a linked list. When a contact is added to the list, it is inserted in alphabetical order.
