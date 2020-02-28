@@ -1,0 +1,2 @@
+This was a programming assignment from Princeton's course Algorithms part 2 on Coursera. Here's a link for the description of the project.
+https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php
